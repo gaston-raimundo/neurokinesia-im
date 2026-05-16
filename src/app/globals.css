@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* ── Tokens de marca Neurokinesia IM ─────────────────────────────────────── */
+@theme inline {
+  /* Paleta */
+  --color-navy:    #1A3A4A;
+  --color-teal:    #2A7F7F;
+  --color-teal-lt: #4AA8A8;
+  --color-sage:    #6B9E8E;
+  --color-cream:   #F7F4EF;
+  --color-warm:    #E8E2D9;
+  --color-muted:   #6B7B82;
+  --color-text:    #1E2D35;
+
+  /* Tipografía */
+  --font-display: var(--font-cormorant);
+  --font-sans:    var(--font-dm-sans);
+}
+
+/* ── Base ────────────────────────────────────────────────────────────────── */
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-sans), 'DM Sans', sans-serif;
+  background-color: #ffffff;
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
