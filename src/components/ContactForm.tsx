@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 
-// Replace FORMSPREE_ID with actual form ID from formspree.io after registering
-const FORMSPREE_URL = "https://formspree.io/f/FORMSPREE_ID";
+const FORMSPREE_URL = `https://formspree.io/f/${process.env.NEXT_PUBLIC_FORMSPREE_ID}`;
 
 const MOTIVOS = [
   "Quiero pedir un turno",

@@ -23,6 +23,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          NEXT_PUBLIC_FORMSPREE_ID: ${{ secrets.FORMSPREE_ID }}
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
