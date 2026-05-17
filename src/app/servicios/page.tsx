@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 const WA_URL =
-  "https://wa.me/5437942580223?text=Hola%2C%20quisiera%20pedir%20un%20turno.";
+  "https://wa.me/5493794258022?text=Hola%2C%20quisiera%20pedir%20un%20turno.";
 
 const SERVICES = [
   {

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 const WA_URL =
-  "https://wa.me/5437942580223?text=Hola%2C%20quisiera%20pedir%20un%20turno.";
+  "https://wa.me/5493794258022?text=Hola%2C%20quisiera%20pedir%20un%20turno.";
 
 const TEAM = [
   {
@@ -23,7 +23,7 @@ const TEAM = [
       "Kinesiología Convencional",
     ],
     phone: "+54 379 425-8022",
-    waLink: "https://wa.me/5437942580223",
+    waLink: "https://wa.me/5493794258022",
   },
   {
     name: "Isabel Leonora Aranda",
@@ -37,7 +37,7 @@ const TEAM = [
       "Rehabilitación de la Deglución",
     ],
     phone: "+54 379 460-8244",
-    waLink: "https://wa.me/5437946082440",
+    waLink: "https://wa.me/5493794608244",
   },
 ];
 
