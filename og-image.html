@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>OG Image — Neurokinesia IM</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #888;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 12px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .note {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #555;
+  }
+  /* Dimensión exacta: 1200×630 */
+  .card {
+    width: 1200px;
+    height: 630px;
+    background: #1A3A4A;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 96px;
+    gap: 72px;
+    flex-shrink: 0;
+  }
+
+  /* Arcos decorativos */
+  .arc-1 {
+    position: absolute;
+    top: -120px; right: -120px;
+    width: 520px; height: 520px;
+    border-radius: 50%;
+    border: 80px solid #2A7F7F;
+    opacity: 0.12;
+    pointer-events: none;
+  }
+  .arc-2 {
+    position: absolute;
+    bottom: -80px; right: 200px;
+    width: 260px; height: 260px;
+    border-radius: 50%;
+    border: 44px solid #4AA8A8;
+    opacity: 0.10;
+    pointer-events: none;
+  }
+  .arc-3 {
+    position: absolute;
+    top: 50%; left: -60px;
+    transform: translateY(-50%);
+    width: 180px; height: 180px;
+    border-radius: 50%;
+    border: 30px solid #4AA8A8;
+    opacity: 0.08;
+    pointer-events: none;
+  }
+
+  /* Línea acento izquierda */
+  .accent-line {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 5px;
+    background: linear-gradient(to bottom, #2A7F7F, #6B9E8E);
+  }
+
+  /* Isotipo */
+  .isotipo-wrap {
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Contenido de texto */
+  .content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .eyebrow {
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4AA8A8;
+    font-weight: 500;
+    margin-bottom: 18px;
+  }
+  .title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 80px;
+    font-weight: 300;
+    color: white;
+    line-height: 1.0;
+    margin-bottom: 20px;
+  }
+  .title em {
+    font-style: normal;
+    color: #4AA8A8;
+  }
+  .tagline {
+    font-size: 20px;
+    color: rgba(255,255,255,0.55);
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+  }
+  .url {
+    font-size: 16px;
+    color: rgba(255,255,255,0.35);
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+
+<p class="note">OG Image — 1200 × 630 px — capturar y guardar como public/og-image.png</p>
+
+<div class="card">
+  <div class="accent-line"></div>
+  <div class="arc-1"></div>
+  <div class="arc-2"></div>
+  <div class="arc-3"></div>
+
+  <!-- Isotipo -->
+  <div class="isotipo-wrap">
+    <img src="../resources/svg/isotipo-color.svg" width="160" height="160" alt="Neurokinesia IM isotipo">
+  </div>
+
+  <!-- Texto -->
+  <div class="content">
+    <p class="eyebrow">Corrientes, Argentina</p>
+    <h1 class="title">Neuro<em>kinesia IM</em></h1>
+    <p class="tagline">Kinesiología · Terapia · Rehabilitación</p>
+    <p class="url">neurokinesiaim.com.ar</p>
+  </div>
+</div>
+
+</body>
+</html>

@@ -27,12 +27,49 @@ export const metadata: Metadata = {
   },
   description:
     "Consultorio de kinesiología especializado en rehabilitación integral. Atención personalizada con turno exclusivo. Corrientes, Argentina.",
-  metadataBase: new URL("https://neurokinesiaim.com.ar"),
+  metadataBase: new URL("https://www.neurokinesiaim.com.ar"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     siteName: "Neurokinesia IM",
     locale: "es_AR",
     type: "website",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Neurokinesia IM — Kinesiología · Terapia · Rehabilitación" }],
   },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": ["MedicalBusiness", "LocalBusiness"],
+  name: "Neurokinesia IM",
+  description:
+    "Consultorio de kinesiología especializado en rehabilitación integral. Atención personalizada con turno exclusivo.",
+  url: "https://www.neurokinesiaim.com.ar",
+  logo: "https://www.neurokinesiaim.com.ar/icon.svg",
+  image: "https://www.neurokinesiaim.com.ar/og-image.png",
+  telephone: ["+54-379-425-8022", "+54-379-460-8244"],
+  email: "contacto@neurokinesiaim.com.ar",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Quintana 1465",
+    addressLocality: "Corrientes",
+    addressRegion: "Corrientes",
+    addressCountry: "AR",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: -27.4806,
+    longitude: -58.8341,
+  },
+  priceRange: "$$",
+  medicalSpecialty: [
+    "Kinesiología",
+    "Rehabilitación Neurológica",
+    "Rehabilitación Respiratoria",
+    "Fisioterapia",
+  ],
+  sameAs: ["https://www.instagram.com/neurokinesiaim"],
 };
 
 export default function RootLayout({
@@ -43,6 +80,12 @@ export default function RootLayout({
       lang="es"
       className={`${cormorant.variable} ${dmSans.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col">
         <Navbar />
         <main className="flex-1">{children}</main>
