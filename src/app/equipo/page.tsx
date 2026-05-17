@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Equipo",
+  title: "Kinesiólogos en Corrientes — El Equipo",
   description:
-    "Conocé a las profesionales de Neurokinesia IM: Licenciadas en Kinesiología y Fisiatría especializadas en rehabilitación integral.",
+    "Conocé a las kinesiólogas de Neurokinesia IM en Corrientes: María del Mar Flores e Isabel Leonora Aranda, licenciadas en Kinesiología y Fisiatría especializadas en rehabilitación integral.",
 };
 
 const WA_URL =

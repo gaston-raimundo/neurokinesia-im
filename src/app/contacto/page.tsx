@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contacto",
+  title: "Turnos · Kinesiólogo en Corrientes",
   description:
-    "Contactate con Neurokinesia IM para pedir un turno o resolver una consulta. Quintana 1465, Corrientes.",
+    "Pedí turno con tu kinesiólogo en Corrientes. Neurokinesia IM · Quintana 1465, Corrientes · +54 379 425-8022 · contacto@neurokinesiaim.com.ar",
 };
 
 const CONTACT_INFO = [

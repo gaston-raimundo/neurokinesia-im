@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Neurokinesia IM — Kinesiología · Terapia · Rehabilitación",
+  title: "Neurokinesia IM — Kinesiólogo en Corrientes · Rehabilitación Integral",
   description:
-    "Consultorio de kinesiología especializado en rehabilitación integral. Atención personalizada con turno exclusivo. Corrientes, Argentina.",
+    "Kinesiólogo en Corrientes. Rehabilitación neurológica, respiratoria, traumatológica, pediátrica, geriátrica y más. Turno exclusivo y atención personalizada. Quintana 1465.",
 };
 
 const WA_URL = "https://wa.me/5437942580223?text=Hola%2C%20quisiera%20pedir%20un%20turno.";
@@ -206,8 +206,8 @@ export default function HomePage() {
               <em className="not-italic text-teal">en cada etapa</em>
             </SectionHeading>
             <p className="text-muted max-w-xl leading-relaxed">
-              Diez especialidades kinesiológicas bajo un mismo techo, con un equipo
-              formado y actualizado en cada área.
+              Diez especialidades kinesiológicas en Corrientes bajo un mismo techo,
+              con un equipo formado y actualizado en cada área.
             </p>
           </div>
 
@@ -284,7 +284,7 @@ export default function HomePage() {
             <p className="text-sm text-muted text-center sm:text-left">
               Trabajamos en cooperación con{" "}
               <span className="font-medium text-navy">Ser Salud®</span>, integrando
-              recursos y especialidades para una atención más completa.
+              recursos y especialidades para una atención kinesiológica más completa en Corrientes.
             </p>
           </div>
         </div>

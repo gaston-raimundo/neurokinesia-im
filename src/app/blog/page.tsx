@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Blog de Kinesiología y Rehabilitación",
   description:
-    "Artículos educativos sobre kinesiología, rehabilitación y salud del movimiento. Información para pacientes y familias.",
+    "Artículos sobre kinesiología, rehabilitación neurológica, respiratoria, pediátrica y más. Información para pacientes y familias. Neurokinesia IM, Corrientes.",
 };
 
 const POSTS = [

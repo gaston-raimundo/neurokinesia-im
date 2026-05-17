@@ -22,11 +22,11 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Neurokinesia IM — Kinesiología · Terapia · Rehabilitación",
+    default: "Neurokinesia IM — Kinesiólogo en Corrientes · Rehabilitación Integral",
     template: "%s · Neurokinesia IM",
   },
   description:
-    "Consultorio de kinesiología especializado en rehabilitación integral. Atención personalizada con turno exclusivo. Corrientes, Argentina.",
+    "Kinesiólogo en Corrientes. Rehabilitación neurológica, respiratoria, traumatológica, pediátrica y geriátrica. Turno exclusivo y atención personalizada. Quintana 1465, Corrientes.",
   metadataBase: new URL("https://www.neurokinesiaim.com.ar"),
   alternates: {
     canonical: "/",

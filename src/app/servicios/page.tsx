@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Servicios",
+  title: "Servicios de Kinesiología en Corrientes",
   description:
-    "Conocé los 10 servicios de kinesiología y rehabilitación de Neurokinesia IM: neurológica, respiratoria, traumatológica, pediátrica, RPG, kinesiotaping y más.",
+    "Servicios de kinesiología y rehabilitación en Corrientes: neurológica, respiratoria, traumatológica, pediátrica, geriátrica, RPG, kinesiotaping, deglución y más. Neurokinesia IM.",
 };
 
 const WA_URL =
