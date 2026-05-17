@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://www.neurokinesiaim.com.ar</loc>
+<lastmod>2026-05-17T02:40:18.804Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://www.neurokinesiaim.com.ar/servicios</loc>
+<lastmod>2026-05-17T02:40:18.804Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://www.neurokinesiaim.com.ar/equipo</loc>
+<lastmod>2026-05-17T02:40:18.804Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.neurokinesiaim.com.ar/contacto</loc>
+<lastmod>2026-05-17T02:40:18.804Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.neurokinesiaim.com.ar/blog</loc>
+<lastmod>2026-05-17T02:40:18.804Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
+</url>
+</urlset>
