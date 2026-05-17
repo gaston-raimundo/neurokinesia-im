@@ -222,8 +222,8 @@ export default function HomePage() {
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-teal to-teal-lt flex items-center justify-center text-white mb-4 group-hover:scale-105 transition-transform">
                   {s.icon}
                 </div>
-                <h3 className="font-semibold text-navy text-sm mb-2">{s.name}</h3>
-                <p className="text-muted text-sm leading-relaxed">{s.desc}</p>
+                <h3 className="font-semibold text-navy text-base mb-2">{s.name}</h3>
+                <p className="text-muted text-base leading-relaxed">{s.desc}</p>
               </Link>
             ))}
           </div>
@@ -264,12 +264,12 @@ export default function HomePage() {
                   <div className="h-px flex-1 bg-warm" />
                 </div>
                 <h3
-                  className="text-xl text-navy"
+                  className="text-2xl text-navy"
                   style={{ fontFamily: "var(--font-cormorant)" }}
                 >
                   {f.title}
                 </h3>
-                <p className="text-muted text-sm leading-relaxed">{f.desc}</p>
+                <p className="text-muted text-base leading-relaxed">{f.desc}</p>
               </div>
             ))}
           </div>
@@ -281,7 +281,7 @@ export default function HomePage() {
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
               </svg>
             </div>
-            <p className="text-sm text-muted text-center sm:text-left">
+            <p className="text-base text-muted text-center sm:text-left">
               Trabajamos en cooperación con{" "}
               <span className="font-medium text-navy">Ser Salud®</span>, integrando
               recursos y especialidades para una atención kinesiológica más completa en Corrientes.
@@ -319,12 +319,12 @@ export default function HomePage() {
                   </div>
                   <div>
                     <h3
-                      className="text-xl font-light text-navy"
+                      className="text-2xl font-light text-navy"
                       style={{ fontFamily: "var(--font-cormorant)" }}
                     >
                       {member.name}
                     </h3>
-                    <p className="text-xs text-muted tracking-wide uppercase mt-0.5">
+                    <p className="text-sm text-muted tracking-wide uppercase mt-0.5">
                       {member.title}
                     </p>
                   </div>
@@ -335,7 +335,7 @@ export default function HomePage() {
                   {member.specialties.map((s) => (
                     <span
                       key={s}
-                      className="text-xs px-3 py-1 rounded-full bg-cream border border-warm text-muted"
+                      className="text-sm px-3 py-1 rounded-full bg-cream border border-warm text-muted"
                     >
                       {s}
                     </span>

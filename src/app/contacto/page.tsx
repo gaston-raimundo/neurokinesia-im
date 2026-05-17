@@ -108,7 +108,7 @@ export default function ContactoPage() {
                         {item.label}
                       </p>
                       {item.lines.map((line) => (
-                        <p key={line} className="text-sm text-muted">{line}</p>
+                        <p key={line} className="text-base text-muted">{line}</p>
                       ))}
                     </div>
                   </div>

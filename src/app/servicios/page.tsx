@@ -186,12 +186,12 @@ export default function ServiciosPage() {
                 {/* Nombre y descripción */}
                 <div className="flex-1">
                   <h2
-                    className="text-lg font-light text-navy mb-2"
+                    className="text-xl font-light text-navy mb-2"
                     style={{ fontFamily: "var(--font-cormorant)" }}
                   >
                     {s.name}
                   </h2>
-                  <p className="text-muted text-sm leading-relaxed">{s.desc}</p>
+                  <p className="text-muted text-base leading-relaxed">{s.desc}</p>
                 </div>
 
                 {/* Tags de indicaciones */}
@@ -199,7 +199,7 @@ export default function ServiciosPage() {
                   {s.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs px-2.5 py-1 rounded-full bg-cream border border-warm text-muted"
+                      className="text-sm px-2.5 py-1 rounded-full bg-cream border border-warm text-muted"
                     >
                       {tag}
                     </span>

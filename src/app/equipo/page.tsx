@@ -86,7 +86,7 @@ export default function EquipoPage() {
                   href={member.waLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs text-teal hover:text-teal-lt transition-colors font-medium"
+                  className="text-sm text-teal hover:text-teal-lt transition-colors font-medium"
                 >
                   {member.phone}
                 </a>
@@ -106,7 +106,7 @@ export default function EquipoPage() {
                   </p>
                 </div>
 
-                <p className="text-muted text-sm leading-relaxed">{member.bio}</p>
+                <p className="text-muted text-base leading-relaxed">{member.bio}</p>
 
                 <div>
                   <p className="text-xs text-navy font-semibold tracking-wide uppercase mb-2">
@@ -116,7 +116,7 @@ export default function EquipoPage() {
                     {member.specialties.map((s) => (
                       <span
                         key={s}
-                        className="text-xs px-3 py-1 rounded-full bg-cream border border-warm text-muted"
+                        className="text-sm px-3 py-1 rounded-full bg-cream border border-warm text-muted"
                       >
                         {s}
                       </span>
@@ -138,10 +138,10 @@ export default function EquipoPage() {
             </svg>
           </div>
           <div>
-            <p className="text-sm font-semibold text-navy mb-1">
+            <p className="text-base font-semibold text-navy mb-1">
               Cooperación con Ser Salud<sup>®</sup>
             </p>
-            <p className="text-sm text-muted leading-relaxed">
+            <p className="text-base text-muted leading-relaxed">
               Trabajamos en cooperación con Ser Salud®, integrando recursos y
               especialidades para una atención más completa y coordinada cuando
               el caso lo requiere.

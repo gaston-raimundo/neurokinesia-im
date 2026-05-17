@@ -36,7 +36,7 @@ export default function Navbar() {
             <Link
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-muted hover:text-navy transition-colors"
+              className="text-base font-medium text-muted hover:text-navy transition-colors"
             >
               {l.label}
             </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
             href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden md:inline-flex items-center gap-2 bg-teal hover:bg-teal-lt text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
+            className="hidden md:inline-flex items-center gap-2 bg-teal hover:bg-teal-lt text-white text-base font-medium px-4 py-2 rounded-lg transition-colors"
           >
             Pedí turno
           </a>
@@ -77,7 +77,7 @@ export default function Navbar() {
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="text-sm font-medium text-navy"
+              className="text-base font-medium text-navy"
             >
               {l.label}
             </Link>
@@ -86,7 +86,7 @@ export default function Navbar() {
             href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex justify-center bg-teal text-white text-sm font-medium px-4 py-2 rounded-lg"
+            className="inline-flex justify-center bg-teal text-white text-base font-medium px-4 py-2 rounded-lg"
           >
             Pedí turno
           </a>
