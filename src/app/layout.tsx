@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s · Neurokinesia IM",
   },
   description:
-    "Kinesiólogo en Corrientes. Rehabilitación neurológica, respiratoria, traumatológica, pediátrica y geriátrica. Turno exclusivo y atención personalizada. Quintana 1465, Corrientes.",
+    "Centro de neuro kinesiología y rehabilitación en Corrientes. Kinesiólogo y fisioterapeuta con turno exclusivo. Neurológica, respiratoria, traumatológica, geriátrica, RPG y más. Quintana 1465.",
   metadataBase: new URL("https://www.neurokinesiaim.com.ar"),
   alternates: {
     canonical: "/",
@@ -47,7 +47,7 @@ const jsonLd = {
   "@type": ["MedicalBusiness", "LocalBusiness"],
   name: "Neurokinesia IM",
   description:
-    "Consultorio de kinesiología especializado en rehabilitación integral. Atención personalizada con turno exclusivo.",
+    "Centro de neuro kinesiología y rehabilitación en Corrientes, Argentina. Kinesiólogo y fisioterapeuta con turno exclusivo y seguimiento continuo. Especialistas en rehabilitación neurológica (Método Bobath, Therasuit, Perfetti), respiratoria, traumatológica, geriátrica, RPG (Método Tres Escuadras), kinesiotaping y rehabilitación de la deglución.",
   url: "https://www.neurokinesiaim.com.ar",
   logo: "https://www.neurokinesiaim.com.ar/icon.svg",
   image: "https://www.neurokinesiaim.com.ar/og-image.png",
@@ -65,13 +65,40 @@ const jsonLd = {
     latitude: -27.4806,
     longitude: -58.8341,
   },
+  areaServed: {
+    "@type": "City",
+    name: "Corrientes",
+    sameAs: "https://www.wikidata.org/wiki/Q44753",
+  },
   priceRange: "$$",
   medicalSpecialty: [
     "Kinesiología",
+    "Neuro Kinesiología",
     "Rehabilitación Neurológica",
     "Rehabilitación Respiratoria",
+    "Rehabilitación Motora",
+    "Rehabilitación Traumatológica",
+    "Fisioterapia Geriátrica",
+    "Reeducación Postural Global",
+    "Rehabilitación de la Deglución",
+    "Kinesiotaping",
     "Fisioterapia",
   ],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Servicios de Kinesiología y Rehabilitación",
+    itemListElement: [
+      { "@type": "Offer", itemOffered: { "@type": "MedicalTherapy", name: "Rehabilitación Neurológica", description: "Niños, adolescentes y adultos. Método Bobath, Therasuit y Perfetti." } },
+      { "@type": "Offer", itemOffered: { "@type": "MedicalTherapy", name: "Rehabilitación Respiratoria", description: "Kinesioterapia respiratoria, higiene bronquial y expansión pulmonar." } },
+      { "@type": "Offer", itemOffered: { "@type": "MedicalTherapy", name: "Rehabilitación Motora", description: "Recuperación del movimiento y la fuerza tras lesión, enfermedad o cirugía." } },
+      { "@type": "Offer", itemOffered: { "@type": "MedicalTherapy", name: "Rehabilitación Traumatológica", description: "Rehabilitación pre y post quirúrgica, lesiones ligamentarias y tendinosas." } },
+      { "@type": "Offer", itemOffered: { "@type": "MedicalTherapy", name: "Fisioterapia Geriátrica", description: "Equilibrio, marcha, prevención de caídas y autonomía funcional en adultos mayores." } },
+      { "@type": "Offer", itemOffered: { "@type": "MedicalTherapy", name: "Reeducación Postural Global (Método Tres Escuadras)", description: "Trabajo en cadenas musculares para dolores crónicos de columna y postura." } },
+      { "@type": "Offer", itemOffered: { "@type": "MedicalTherapy", name: "Rehabilitación de la Deglución", description: "Evaluación y tratamiento de la disfagia orofaríngea." } },
+      { "@type": "Offer", itemOffered: { "@type": "MedicalTherapy", name: "Kinesiotaping", description: "Vendaje neuromuscular funcional para lesiones agudas y crónicas." } },
+      { "@type": "Offer", itemOffered: { "@type": "MedicalTherapy", name: "Kinesiología Convencional", description: "Ejercicio terapéutico supervisado y fisioterapia según indicación." } },
+    ],
+  },
   sameAs: ["https://www.instagram.com/neurokinesiaim"],
 };
 

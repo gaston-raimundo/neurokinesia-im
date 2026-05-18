@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Blog de Kinesiología y Rehabilitación",
   description:
-    "Artículos sobre kinesiología, rehabilitación neurológica, respiratoria, pediátrica y más. Información para pacientes y familias. Neurokinesia IM, Corrientes.",
+    "Artículos sobre neuro kinesiología, rehabilitación neurológica, respiratoria, fisioterapia geriátrica y más. Información para pacientes y familias. Neurokinesia IM, Corrientes.",
 };
 
 const POSTS = [

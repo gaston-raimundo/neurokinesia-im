@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Kinesiólogos en Corrientes — El Equipo",
   description:
-    "Conocé a las kinesiólogas de Neurokinesia IM en Corrientes: María del Mar Flores e Isabel Leonora Aranda, licenciadas en Kinesiología y Fisiatría especializadas en rehabilitación integral.",
+    "Kinesiólogas en Corrientes especializadas en neuro kinesiología y rehabilitación. Método Bobath, Therasuit, Perfetti y RPG Tres Escuadras. María del Mar Flores e Isabel Leonora Aranda.",
 };
 
 const WA_URL =
@@ -15,12 +15,13 @@ const TEAM = [
     name: "María del Mar Flores",
     initials: "MF",
     title: "Lic. en Kinesiología y Fisiatría",
-    bio: "Especializada en rehabilitación neurológica y motora, con formación en técnicas de reeducación neuromuscular (Bobath, PNF) y Reeducación Postural Global. Orientada al abordaje integral del paciente, con evaluación funcional estandarizada y planificación de objetivos terapéuticos medibles.",
+    bio: "Especializada en rehabilitación neurológica, motora y respiratoria, con formación en Método Perfetti y Reeducación Postural Global (Método Tres Escuadras). Orientada al abordaje integral del paciente, con evaluación funcional estandarizada y planificación de objetivos terapéuticos medibles.",
     specialties: [
       "Rehabilitación Neurológica",
       "Rehabilitación Motora",
       "RPG — Reeducación Postural Global",
       "Kinesiología Convencional",
+      "Rehabilitación de la Deglución",
     ],
     phone: "+54 379 425-8022",
     waLink: "https://wa.me/5493794258022",
@@ -29,7 +30,7 @@ const TEAM = [
     name: "Isabel Leonora Aranda",
     initials: "IA",
     title: "Lic. en Kinesiología y Fisiatría",
-    bio: "Especializada en rehabilitación pediátrica y respiratoria, con formación en técnicas de facilitación del desarrollo neuromotor (Bobath pediátrico, Vojta) y kinesioterapia respiratoria. Trabaja en coordinación con pediatras, neuropediatras, fonoaudiólogos y nutricionistas según cada caso.",
+    bio: "Especializada en rehabilitación neurológica y motora, con formación en Método Bobath, Therasuit y kinesioterapia respiratoria. Trabaja en coordinación con pediatras, neuropediatras, fonoaudiólogos y nutricionistas según cada caso.",
     specialties: [
       "Rehabilitación Pediátrica",
       "Rehabilitación Respiratoria",

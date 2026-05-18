@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Servicios de Kinesiología en Corrientes",
   description:
-    "Servicios de kinesiología y rehabilitación en Corrientes: neurológica, respiratoria, traumatológica, pediátrica, geriátrica, RPG, kinesiotaping, deglución y más. Neurokinesia IM.",
+    "9 servicios de kinesiología y rehabilitación en Corrientes: neurológica, respiratoria, traumatológica, geriátrica, RPG (Método Tres Escuadras), kinesiotaping, deglución y más. Neurokinesia IM.",
 };
 
 const WA_URL =
@@ -14,7 +14,7 @@ const SERVICES = [
   {
     slug: "neurologica",
     name: "Rehabilitación Neurológica",
-    desc: "Recuperación funcional del sistema nervioso mediante reeducación neuromuscular, estimulación sensoriomotriz y ejercicio terapéutico basado en neuroplasticidad.",
+    desc: "Niños, adolescentes y adultos. Especializadas en Método Bobath, Therasuit y Perfetti.",
     tags: ["ACV / Hemiparesia", "Parkinson", "Esclerosis Múltiple", "Lesión medular", "TCE"],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
@@ -57,7 +57,7 @@ const SERVICES = [
   {
     slug: "traumatologica",
     name: "Rehabilitación Traumatológica",
-    desc: "Rehabilitación post-quirúrgica ortopédica, tratamiento de lesiones ligamentarias y tendinosas, recuperación funcional de miembros. Protocolo adaptado según estadio de cicatrización.",
+    desc: "Rehabilitación pre y post quirúrgica, tratamiento de lesiones ligamentarias y tendinosas, recuperación funcional de miembro. Protocolo adaptado a cada patología.",
     tags: ["Rodilla / Cadera / Hombro", "Fracturas", "Prótesis articulares", "Roturas tendinosas"],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
@@ -82,7 +82,7 @@ const SERVICES = [
   {
     slug: "convencional",
     name: "Kinesiología Convencional",
-    desc: "Evaluación y tratamiento de disfunciones músculo-esqueléticas con terapia manual, ejercicio terapéutico supervisado y electroterapia (TENS, ultrasonido, magnetoterapia) según indicación.",
+    desc: "Ejercicio terapéutico supervisado y fisioterapia (TENS, ultrasonido, magnetoterapia) según indicación.",
     tags: ["Tendinopatías", "Contracturas", "Bursitis", "Dolor lumbar"],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
@@ -92,7 +92,7 @@ const SERVICES = [
   },
   {
     slug: "rpg",
-    name: "RPG — Reeducación Postural Global",
+    name: "Reeducación Postural Global (Método Tres Escuadras)",
     desc: "Trabajo en cadenas musculares mediante posturas de estiramiento global mantenido. Especialmente indicada cuando los tratamientos segmentarios no han dado resultado sostenido.",
     tags: ["Escoliosis funcional", "Cervicalgia / Lumbalgia crónica", "Hernias discales"],
     icon: (
@@ -120,27 +120,13 @@ const SERVICES = [
   {
     slug: "deglucion",
     name: "Rehabilitación de la Deglución",
-    desc: "Evaluación y tratamiento de la disfagia orofaríngea. Facilitación neuromuscular orofacial, maniobras deglutorias y fortalecimiento muscular oral y faríngeo. Coordinación con fonoaudiología y nutrición.",
+    desc: "Evaluación y tratamiento de la disfagia orofaríngea. Facilitación neuromuscular orofacial, maniobras deglutorias y fortalecimiento muscular oral y faríngeo.",
     tags: ["Disfagia post-ACV", "Parkinson", "ELA / EM", "Post-cirugía cervical"],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
         <path d="M12 2a5 5 0 015 5v1a5 5 0 01-10 0V7a5 5 0 015-5z"/>
         <path d="M8 14s-.5 6 4 6 4-6 4-6"/>
         <line x1="12" y1="13" x2="12" y2="14"/>
-      </svg>
-    ),
-  },
-  {
-    slug: "pediatrica",
-    name: "Rehabilitación Pediátrica",
-    desc: "Evaluación del desarrollo neuromotor y tratamiento de disfunciones motrices en población pediátrica. Técnicas Bobath, Vojta y PNF adaptadas a la edad. Coordinación disponible con pediatra o neuropediatra.",
-    tags: ["Parálisis cerebral", "Retraso psicomotor", "Hipotonía", "Tortícolis congénita"],
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
-        <circle cx="12" cy="6" r="3"/>
-        <path d="M8 22V14a4 4 0 018 0v8"/>
-        <path d="M6 14l-2 4"/>
-        <path d="M18 14l2 4"/>
       </svg>
     ),
   },

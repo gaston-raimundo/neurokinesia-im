@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Neurokinesia IM — Kinesiólogo en Corrientes · Rehabilitación Integral",
+  title: "Neurokinesia IM — Kinesiólogo y Neuro Kinesiólogo en Corrientes",
   description:
-    "Kinesiólogo en Corrientes. Rehabilitación neurológica, respiratoria, traumatológica, pediátrica, geriátrica y más. Turno exclusivo y atención personalizada. Quintana 1465.",
+    "Centro de neuro kinesiología y rehabilitación en Corrientes. Kinesiólogo y fisioterapeuta con turno exclusivo. Neurológica, respiratoria, traumatológica, geriátrica, RPG y más. Quintana 1465.",
 };
 
 const WA_URL = "https://wa.me/5493794258022?text=Hola%2C%20quisiera%20pedir%20un%20turno.";
@@ -15,7 +15,7 @@ const SERVICES = [
   {
     slug: "neurologica-pediatrica",
     name: "Neurológica · Pediátrica",
-    desc: "Recuperación funcional del sistema nervioso en adultos y niños. Abordaje del movimiento, la coordinación y el desarrollo neuromotor.",
+    desc: "Recuperación funcional del sistema nervioso en niños, adolescentes y adultos. Abordaje del movimiento, la coordinación y el desarrollo neuro motor.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
         <circle cx="12" cy="12" r="3"/>
@@ -29,7 +29,7 @@ const SERVICES = [
   {
     slug: "respiratoria",
     name: "Respiratoria",
-    desc: "Tratamiento de patologías respiratorias agudas y crónicas. Técnicas de higiene bronquial, expansión pulmonar y rehabilitación post-COVID.",
+    desc: "Tratamiento de patologías respiratorias agudas y crónicas. Técnicas de higiene bronquial y expansión pulmonar.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
         <path d="M12 2a5 5 0 015 5v3a5 5 0 01-10 0V7a5 5 0 015-5z"/>
@@ -174,8 +174,8 @@ export default function HomePage() {
             <em className="text-teal-lt not-italic">Recuperá tu vida.</em>
           </h1>
           <p className="text-white/65 text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
-            Atención personalizada e integral con turno exclusivo y seguimiento
-            continuo hasta el alta. Corrientes, Argentina.
+            Centro de neuro kinesiología, fisioterapia y rehabilitación en
+            Corrientes. Turno exclusivo y seguimiento continuo hasta el alta.
           </p>
           <div className="flex flex-wrap gap-4">
             <a
