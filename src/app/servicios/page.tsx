@@ -149,7 +149,7 @@ export default function ServiciosPage() {
             <em className="text-teal-lt not-italic">servicios</em>
           </h1>
           <p className="text-white/65 text-lg max-w-xl leading-relaxed">
-            Diez especialidades kinesiológicas con atención personalizada, turno
+            Nueve especialidades kinesiológicas con atención personalizada, turno
             exclusivo y seguimiento hasta el alta.
           </p>
         </div>
@@ -160,9 +160,10 @@ export default function ServiciosPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {SERVICES.map((s) => (
-              <div
+              <Link
                 key={s.slug}
-                className="bg-white border border-warm rounded-xl p-6 flex flex-col gap-4 hover:border-teal hover:shadow-md transition-all"
+                href={`/servicios/${s.slug}/`}
+                className="bg-white border border-warm rounded-xl p-6 flex flex-col gap-4 hover:border-teal hover:shadow-md transition-all group"
               >
                 {/* Ícono */}
                 <div className="w-11 h-11 rounded-lg bg-gradient-to-br from-teal to-teal-lt flex items-center justify-center text-white flex-shrink-0">
@@ -172,7 +173,7 @@ export default function ServiciosPage() {
                 {/* Nombre y descripción */}
                 <div className="flex-1">
                   <h2
-                    className="text-xl font-light text-navy mb-2"
+                    className="text-xl font-light text-navy mb-2 group-hover:text-teal transition-colors"
                     style={{ fontFamily: "var(--font-cormorant)" }}
                   >
                     {s.name}
@@ -191,7 +192,16 @@ export default function ServiciosPage() {
                     </span>
                   ))}
                 </div>
-              </div>
+
+                {/* Más info */}
+                <div className="flex items-center gap-1.5 text-sm text-teal font-medium mt-auto pt-1">
+                  <span>Más información</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5">
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                    <polyline points="12 5 19 12 12 19"/>
+                  </svg>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
