@@ -36,10 +36,10 @@ export default function Footer() {
         {/* Contacto */}
         <div className="flex flex-col gap-2 text-sm">
           <p className="text-xs tracking-widest uppercase text-white/40 mb-2">Contacto</p>
-          <a href="tel:+5437942580223" className="hover:text-teal-lt transition-colors">
+          <a href="tel:+543794258022" className="hover:text-teal-lt transition-colors">
             +54 379 425-8022
           </a>
-          <a href="tel:+5437946082443" className="hover:text-teal-lt transition-colors">
+          <a href="tel:+543794608244" className="hover:text-teal-lt transition-colors">
             +54 379 460-8244
           </a>
           <a href="mailto:contacto@neurokinesiaim.com.ar" className="hover:text-teal-lt transition-colors">
